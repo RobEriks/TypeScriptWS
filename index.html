@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./dist/output.css" rel="stylesheet">
+
+</head>
+<body class="text-white">
+  <!-- Header -->
+  <header class="flex items-center justify-between p-6 bg-gray-800">
+    <div class="flex items-center">
+      <!-- Logo -->
+      <img src="tailwindLogo.png" alt="Tailwind CSS Logo" class="h-10">
+      <span class="text-xl font-bold">tailwindcss</span>
+    </div>
+    <!-- Navigation -->
+    <nav class="flex space-x-4 text-lg font-medium">
+      <a class="hover:text-blue-400">Docs</a>
+      <a class="hover:text-blue-400">Components</a>
+      <a class="hover:text-blue-400">Blog</a>
+      <a class="hover:text-blue-400">Showcase</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="text-center py-20 bg-gray-900 relative">
+    <!-- Background grid -->
+    <div class="absolute inset-0 bg-grid-gray opacity-10 pointer-events-none"></div>
+    <div class="relative z-10">
+      <h1 class="text-5xl font-extrabold tracking-tight sm:text-6xl md:text-7xl">
+        Rapidly build modern websites<br> without ever leaving your HTML.
+      </h1>
+      <p class="mt-6 text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto">
+        A utility-first CSS framework packed with classes like <span class="text-blue-400">flex</span>, <span class="text-blue-400">pt-4</span>, <span class="text-blue-400">text-center</span> and <span class="text-blue-400">rotate-90</span> that can be composed to build any design, directly in your markup.
+      </p>
+      <div class="mt-16 flex justify-center items-center space-x-4 hover:text-black">
+        <h2 class="px-6 py-4 bg-blue-500 text-white rounded-lg ">
+          Get started
+        </h2>
+        <div class="relative">
+          <input
+            type="text"
+            placeholder="Quick search"
+            class="px-4 py-4 bg-gray-300 rounded-lg   "
+          />
+          
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
